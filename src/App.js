@@ -1,23 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { useAuthContext } from "./hooks/useAuthContext";
+
+// styles
+import "./App.css";
+
+// pages & components
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Create from "./pages/Create/Create";
+import Login from "./pages/Login/Login";
+import Signup from "./pages/Signup/Signup";
+import CustomerDetails from "./components/CustomerDetails/CustomerDetails";
+import Navbar from "./components/Navbar/Navbar";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
+  const { authIsReady, user } = useAuthContext();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {authIsReady && (
+        <BrowserRouter>
+          {user && <Sidebar />}
+          <div className="container">
+            <Navbar />
+            <Routes>
+              <Route
+                path="/"
+                element={user ? <Dashboard /> : <Navigate to="/login" />}
+              />
+              <Route
+                path="/create"
+                element={user ? <Create /> : <Navigate to="/login" />}
+              />
+              <Route
+                path="/customers/:id"
+                element={
+                  user ? <CustomerDetails /> : <CustomerDetails to="/login" />
+                }
+              />
+              <Route
+                path="/login"
+                element={user ? <Navigate to="/" /> : <Login />}
+              />
+              <Route
+                path="/signup"
+                element={user ? <Navigate to="/" /> : <Signup />}
+              />
+            </Routes>
+          </div>
+        </BrowserRouter>
+      )}
     </div>
   );
 }
