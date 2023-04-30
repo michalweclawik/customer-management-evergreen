@@ -25,9 +25,8 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebar-content">
         <div className="user">
-          <p>
-            {greeting} {user.displayName}
-          </p>
+          <p>{greeting} </p>
+          <p>{user.displayName}</p>
         </div>
         <nav className="links">
           <ul>

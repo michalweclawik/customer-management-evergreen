@@ -52,7 +52,7 @@ export default function Create() {
 
   return (
     <div className="create-form">
-      <h2 className="page-title">Add new customer</h2>
+      <h1 className="page-title">News customer informations</h1>
       <form onSubmit={handleSubmit}>
         <label>
           <span>Company Name</span>

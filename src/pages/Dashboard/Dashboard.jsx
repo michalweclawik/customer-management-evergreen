@@ -15,7 +15,7 @@ export default function Dashboard() {
 
   return (
     <div>
-      <h2 className="page-title">Dashboard</h2>
+      <h2 className="page-title">Existing customers</h2>
       {error && <p className="error">{error}</p>}
 
       {customers && <CustomerList customers={customers} />}
