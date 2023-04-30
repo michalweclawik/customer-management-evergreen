@@ -38,7 +38,9 @@ const CustomerDetails = () => {
           <h4>{document.lastName}</h4>
           <h4>{document.phoneNumber}</h4>
           <h4>{document.address}</h4>
-          <Link to={`/edit/${id}`}>Edit information</Link>
+          <Link to={`/edit/${id}`} className="btn edit">
+            Edit information
+          </Link>
           <button className="btn" onClick={handleClick}>
             Remove customer
           </button>

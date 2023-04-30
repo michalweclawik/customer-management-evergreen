@@ -63,7 +63,14 @@ h4 {
 
 .map-container {
   width: 300px;
-  height: 200px;
+  height: 250px;
   border-radius: 4px;
   overflow: hidden;
+}
+
+.edit {
+  border: none;
+  text-decoration: none;
+  color: var(--heading-color);
+  margin-bottom: 10px;
 }

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useAuthContext } from "../../hooks/useAuthContext";
 import { useFirestore } from "../../hooks/useFirestore";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useDocument } from "../../hooks/useDocument";
 import { useParams } from "react-router-dom";
 
@@ -105,9 +105,12 @@ export default function EditCustomer() {
             value={address}
           ></input>
         </label>
-
-        <button className="btn">Save changes</button>
-
+        <div className="buttons">
+          <button className="btn">Save changes</button>
+          <Link to={`/customers/${id}`} className="btn">
+            Cancel
+          </Link>
+        </div>
         {formError && <p className="error">{formError}</p>}
       </form>
     </div>
