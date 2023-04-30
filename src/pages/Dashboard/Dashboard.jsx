@@ -14,7 +14,7 @@ export default function Dashboard() {
     : null;
 
   return (
-    <div>
+    <div className="dashboard">
       <h2 className="page-title">Existing customers</h2>
       {error && <p className="error">{error}</p>}
 

@@ -25,6 +25,7 @@ export default function Login() {
           onChange={(e) => setEmail(e.target.value)}
           value={email}
         />
+        <small>*your email won't be shared</small>
       </label>
       <label>
         <span>password:</span>

@@ -48,7 +48,13 @@ export default function Create() {
       navigate("/");
     }
   };
-
+  const phoneRegex = /^[0-9-]{10,}$/;
+  const handlePhoneChange = (e) => {
+    const value = e.target.value;
+    if (value === "" || phoneRegex.test(value)) {
+      setPhoneNumber(value);
+    }
+  };
   return (
     <div className="create-form">
       <h1 className="page-title">News customer informations</h1>
@@ -86,8 +92,9 @@ export default function Create() {
           <input
             required
             type="number"
-            onChange={(e) => setPhoneNumber(e.target.value)}
+            onChange={handlePhoneChange}
             value={phoneNumber}
+            pattern="[0-9-]{10,}"
           ></input>
         </label>
         <label>
