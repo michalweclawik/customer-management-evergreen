@@ -12,7 +12,6 @@
 }
 .navbar .logo {
   font-weight: bold;
-
   color: var(--heading-color);
   letter-spacing: 1px;
   display: flex;
@@ -21,8 +20,7 @@
 }
 .navbar .logo img {
   margin-right: 10px;
-  filter: invert(25%);
-  width: 36px;
+  width: 100px;
   margin-top: -8px;
 }
 .navbar a {
