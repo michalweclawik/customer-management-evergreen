@@ -30,7 +30,6 @@ export default function Create() {
 
     const createdBy = {
       displayName: user.displayName,
-
       id: user.uid,
     };
 
