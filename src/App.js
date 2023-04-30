@@ -12,6 +12,7 @@ import Signup from "./pages/Signup/Signup";
 import CustomerDetails from "./components/CustomerDetails/CustomerDetails";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
+import EditCustomer from "./pages/EditCustomer/EditCustomer";
 
 function App() {
   const { authIsReady, user } = useAuthContext();
@@ -34,9 +35,11 @@ function App() {
               />
               <Route
                 path="/customers/:id"
-                element={
-                  user ? <CustomerDetails /> : <CustomerDetails to="/login" />
-                }
+                element={user ? <CustomerDetails /> : <Navigate to="/login" />}
+              />
+              <Route
+                path="/edit/:id"
+                element={user ? <EditCustomer /> : <Navigate to="/login" />}
               />
               <Route
                 path="/login"
