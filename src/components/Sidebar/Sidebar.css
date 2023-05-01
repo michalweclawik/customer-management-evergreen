@@ -56,7 +56,7 @@
   .sidebar {
     width: 100vw;
     background: var(--primary-color);
-    min-height: 20vh;
+    min-height: 22vh;
     box-sizing: border-box;
     position: relative;
     color: #fff;
