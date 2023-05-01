@@ -1,7 +1,5 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useAuthContext } from "./hooks/useAuthContext";
-
-// styles
 import "./App.css";
 
 // pages & components

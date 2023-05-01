@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 
-// styles & images
 import "./Sidebar.css";
 import DashboardIcon from "../../asset/dashboard_icon.svg";
 import AddIcon from "../../asset/add_icon.svg";

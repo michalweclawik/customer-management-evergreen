@@ -25,6 +25,4 @@ const auth = getAuth();
 // init firebase storage
 const storage = getStorage();
 
-// timestamp
-
 export { db, auth, storage };

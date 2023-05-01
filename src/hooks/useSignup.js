@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { useAuthContext } from "./useAuthContext";
 import { auth, db, storage } from "../firebase/config";
-
-// firebase imports
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
 import { ref } from "firebase/storage";

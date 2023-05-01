@@ -1,10 +1,7 @@
 import { useState, useEffect } from "react";
 import { useCollection } from "../../hooks/useCollection";
 import { useAuthContext } from "../../hooks/useAuthContext";
-
 import { useFirestore } from "../../hooks/useFirestore";
-
-// styles
 import "./Create.css";
 import { useNavigate } from "react-router-dom";
 
@@ -21,8 +18,6 @@ export default function Create() {
   const [formError, setFormError] = useState(null);
   const { addDocument, response } = useFirestore("customers");
   const navigate = useNavigate();
-
-  // create user values for react-select
 
   const handleSubmit = async (e) => {
     e.preventDefault();
