@@ -56,7 +56,7 @@
   .sidebar {
     width: 100vw;
     background: var(--primary-color);
-    min-height: 26vh;
+    min-height: 20vh;
     box-sizing: border-box;
     position: relative;
     color: #fff;
@@ -99,5 +99,17 @@
   }
   .sidebar .links .active img {
     filter: invert(40%);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  p {
+    font-size: 15px;
+  }
+  .sidebar {
+    margin-bottom: 0px;
+  }
+  a {
+    font-size: 13px;
   }
 }

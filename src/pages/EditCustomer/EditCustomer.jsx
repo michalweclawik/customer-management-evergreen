@@ -4,7 +4,6 @@ import { useFirestore } from "../../hooks/useFirestore";
 import { Link, useNavigate } from "react-router-dom";
 import { useDocument } from "../../hooks/useDocument";
 import { useParams } from "react-router-dom";
-
 import "./EditCustomer.css";
 
 export default function EditCustomer() {
