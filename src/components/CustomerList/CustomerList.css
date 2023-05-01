@@ -52,4 +52,41 @@ Link {
   td:last-child {
     border-bottom: 1px solid #ddd;
   }
+} 
+
+*/
+@media screen and (max-width: 520px) {
+  .customers-table label {
+    font-size: 10px;
+  }
+
+  td.sorting_1 {
+    width: 10px;
+  }
+  .dataTables_info {
+    font-size: 10px;
+  }
+  th {
+    font-size: 10px;
+  }
+  td {
+    font-size: 10px;
+  }
+}
+/* .customers-table {
+  width: 100%;
+  overflow-x: auto;
 } */
+
+@media (max-width: 767px) {
+  .customers-table {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .dataTables_filter label input {
+    width: 50%;
+  }
+  .paginate_button {
+    font-size: 8px;
+  }
+}

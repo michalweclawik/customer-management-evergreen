@@ -28,3 +28,22 @@
   text-decoration: none;
   margin-right: 20px;
 }
+@media screen and (max-width: 420px) {
+  .navbar {
+    padding: 10px 0;
+
+    margin-bottom: 30px;
+  }
+
+  .navbar .logo {
+    font-size: 12px;
+  }
+  .navbar .logo img {
+    margin-right: 5px;
+    width: 80px;
+    margin-top: -8px;
+  }
+  .navbar a {
+    margin-right: 10px;
+  }
+}
