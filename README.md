@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Customer management system </h3>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center"> Example of customer management system 
+    <br> 
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📝 Table of Contents
 
-### `npm test`
+- [About](#about)
+- [Getting Started](#getting_started)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Usage](#usage)
+- [Built Using](#built_using)
 
-### `npm run build`
+- [Authors](#authors)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧐 About <a name = "about"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here is my accomplished implementation of the task set forth by Evergreen for their esteemed technical test. This solution showcases a meticulous approach and adherence to professional standards.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-### `npm run eject`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone repo to your local machine with :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open repo in your code edditor then install node modules by typing in yours terminal following command :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+Also you need to install sass dependancy by typing in yours terminal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm install sass --save-dev
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Last step is to open local server by running following comend in terminal
 
-### Code Splitting
+```
+npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Prerequisites
 
-### Analyzing the Bundle Size
+What things you need to install the software and how to install them.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+Give examples
+```
 
-### Making a Progressive Web App
+### Installing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+A step by step series of examples that tell you how to get a development env running.
 
-### Advanced Configuration
+Say what the step will be
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+Give the example
+```
 
-### Deployment
+And repeat
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+until finished
+```
 
-### `npm run build` fails to minify
+## 🎈 Usage <a name="usage"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Create account with email address, password and displa name
+- Within this dynamic space, you can conveniently preview and manage your existing customer base, while also enjoying the ability to seamlessly add new customers to your repertoire.
+- Experience the power of geolocation, app integrates with Google Maps, enabling you to effortlessly pinpoint the exact location of your valued customers
+- You have flexibility to make adjustments as needed, providing you the ability to effortlessly edit or remove customers from your esteemed list
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+<div>
+
+<img width=50px height=50px src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JS">
+<img width=50px height=50px src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML">
+<img width=50px height=50px src="https://user-images.githubusercontent.com/290451/76235994-04b94800-623d-11ea-9b5b-f7a1626ecb06.png" alt="SASS">
+<img width=50px height=50px src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" alt="VS">
+<img width=50px height=50px src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="VS">
+<img width=90px height=50px src="https://camo.githubusercontent.com/5f6c2174f6d40067afd1fac45e0393304e9e2506fcc87a6d132ab3d561ce3bb6/68747470733a2f2f692e6962622e636f2f364a4a31326d742f676f6f676c656d6170732d72656d6f766562672d707265766965772e706e67" alt="VS">
+</div>
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@michalweclawik](https://github.com/michalweclawik) - Idea & Initial work
