@@ -27,7 +27,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Here is my accomplished implementation of the task set forth by Evergreen for their esteemed technical test. This solution showcases a meticulous approach and adherence to professional standards.
+Here is my accomplished implementation of the task for Evergreen and  their esteemed organization. This solution showcases a meticulous approach and adherence to professional standards.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
